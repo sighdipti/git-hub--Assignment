@@ -1,0 +1,5 @@
+git add obsolete.js
+git commit -m "Added obsolete.js"
+git rm obsolete.js
+git commit -m "Removed obsolete.js"
+git revert HEAD

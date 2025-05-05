@@ -1,0 +1,11 @@
+git checkout -b feature-update
+# Make changes to script.js
+git commit -m "Update script.js"
+
+git checkout main
+# Make changes to script.js
+git commit -m "Update script.js"
+
+git merge feature-update
+# Resolve merge conflicts
+git commit -m "Merge feature-update into main"

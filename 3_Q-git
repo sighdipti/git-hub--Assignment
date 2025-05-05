@@ -1,0 +1,35 @@
+/*
+
+# Task 1: 
+
+Create GitHub repository (assuming you have a GitHub account)
+gh repo create my-javascript-project
+
+# Task 2:
+
+Push to GitHub (assuming you have a local Git repository)
+git remote add origin git@github.com:your-username/my-javascript-project.git
+git push -u origin main
+
+# Task 3: 
+
+Invite a team member 
+# Go to your GitHub repository, click on "Settings", then "Manage access", 
+# and add the team member's username with appropriate permissions.
+
+# Task 4: 
+
+Clone and make changes (from team member's perspective)
+git clone git@github.com:your-username/my-javascript-project.git
+cd my-javascript-project
+# Make changes to your code
+git add .
+git commit -m "My awesome changes"
+git push origin main
+
+# Task 5:
+
+Fetch and merge (from original repository owner's perspective)
+git fetch origin
+git merge origin/main 
+*/

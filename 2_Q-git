@@ -1,0 +1,22 @@
+ask-1: Creating a Feature Branch
+
+This is a standard practice in Git. When you want to add a new feature, you create a branch off your main codebase. This isolates your work and prevents it from affecting the main branch until it's ready.
+
+Task-2: Switching to the Feature Branch
+
+You switch your working directory to the newly created feature-greeting branch. Now any changes you make will affect only this branch, not the main one.
+
+Task-3: Implementing the Feature
+
+The instructions indicate adding a function in a file called script.js. This function is intended to display a personalized greeting. The specifics of this function depend on the project, but it's essentially implementing the new feature.
+
+Task-4: Committing Changes
+
+After completing the feature, you use git commit to save your changes. This creates a snapshot of the code in its current state on the feature-greeting branch.
+
+Task-5: Merging into Main
+
+Once you're happy with the feature, you merge it back into the main branch. This integrates your new code with the main codebase, making the feature accessible to everyone.
+Task-6: Switching Back to Main
+
+You switch back to the main branch. This is often done for the next development iteration, either working on the main codebase or starting a new feature branch.
